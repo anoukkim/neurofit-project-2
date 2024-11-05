@@ -1,2 +1,13 @@
-# neurofit-project-2
-2024년 2학기 뉴로핏 기업 산학프로젝트 리포지토리
+# Lower-grade gliomas (LGG) Brain Tumor Segmentation / Survival Risk Prediction
+
+## Project Overview
+This project focuses on the segmentation of Lower-Grade Gliomas (LGG) brain tumors and the prediction of survival risk using AI-based algorithms. It combines a tumor segmentation model with a classification model that predicts the likelihood of survival, providing an integrated approach to LGG analysis. In this project, we implement a Multi-Input CNN Model to perform segmentation and risk prediction on MR data. UNet is used to segment image first, and features are extracted from the last layer. With the extracted features, image data, and genomic data are then combined to perform binary classification (risk percentage prediction)
+
+## Project Results
+AI-based LGG Brain Tumor Segmentation and Survival Risk Prediction Algorithm: An algorithm that combines tumor segmentation and binary classification to predict survival risk.
+ 
+## Required Skills
+* Python
+* Medical Image Analysis
+* Image Processiing
+* Deep Learning
