@@ -8,9 +8,9 @@ This experiment focuses on pretraining a UNet model for medical image segmentati
 
 - **Dataset Source**: `lgg-mri-segmentation`
 - **Data Split**:
-  - **Training Set**: 1940 samples (70%)
-  - **Validation Set**: 416 samples (15%)
-  - **Test Set**: 416 samples (15%)
+  - **Training Set**: 2750 samples (70%)
+  - **Validation Set**: 589 samples (15%)
+  - **Test Set**: 590 samples (15%)
 - **Features**:
   - **Images**: Grayscale MRI scans resized to (256 x 256)
   - **Masks**: Corresponding binary tumor masks resized to (256 x 256)
@@ -86,3 +86,4 @@ This experiment focuses on pretraining a UNet model for medical image segmentati
 - **Best Validation Dice Score**: 0.746
 - **Test Dice Score**: 0.7411
 - The results demonstrate that the model can effectively identify and segment tumor regions.
+- Trained model is saved to 'best_model_unet.pth'
