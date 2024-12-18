@@ -45,7 +45,7 @@ This experiment focuses on pretraining a UNet model for medical image segmentati
 
 - **Loss Function**: Binary Cross-Entropy Loss (BCELoss)
 - **Optimizer**: Adam
-- **Learning Rate**: 0.0001
+- **Learning Rate**: 1e-4
 - **Batch Size**: 32
 - **Number of Epochs**: 50
 - **Metrics**:
@@ -83,6 +83,6 @@ This experiment focuses on pretraining a UNet model for medical image segmentati
 ## Summary
 
 - The UNet model was successfully trained for medical image segmentation.
-- **Best Validation Dice Score**: 0.7411  
+- **Best Validation Dice Score**: 0.746
 - **Test Dice Score**: 0.7411
 - The results demonstrate that the model can effectively identify and segment tumor regions.
