@@ -1,0 +1,9 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+       Alive       0.89      0.97      0.93       302
+        Dead       0.89      0.68      0.77       114
+
+    accuracy                           0.89       416
+   macro avg       0.89      0.83      0.85       416
+weighted avg       0.89      0.89      0.88       416
