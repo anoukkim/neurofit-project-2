@@ -10,7 +10,6 @@ This repository contains code and results for an experiment involving a UNet mod
 - [Model Details](#model-details)
 - [Training Details](#training-details)
 - [Evaluation Metrics](#evaluation-metrics)
-- [Results](#results)
 - [Visualizations](#visualizations)
 
 ---
