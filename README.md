@@ -5,9 +5,13 @@ This project focuses on the segmentation of Lower-Grade Gliomas (LGG) brain tumo
 
 ## Project Results
 AI-based LGG Brain Tumor Segmentation and Survival Risk Prediction Algorithm: An algorithm that combines tumor segmentation and binary classification to predict survival risk.
+![Example 1](https://github.com/anoukkim/neurofit-project-2/blob/main/DL/MultiTask/result/visualization_results/result_19.png)
+
+![Example 2](https://github.com/anoukkim/neurofit-project-2/blob/main/DL/MultiTask/result/visualization_results/result_3.png)
  
 ## Required Skills
 * Python
 * Medical Image Analysis
 * Image Processiing
 * Deep Learning
+
