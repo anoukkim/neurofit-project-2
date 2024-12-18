@@ -12,7 +12,6 @@ This repository contains code and results for an experiment involving a UNet mod
 - [Evaluation Metrics](#evaluation-metrics)
 - [Results](#results)
 - [Visualizations](#visualizations)
-- [Future Work](#future-work)
 
 ---
 
@@ -82,4 +81,9 @@ This repository contains code and results for an experiment involving a UNet mod
 
     accuracy                           0.89       416
    macro avg       0.89      0.83      0.85       416
-weighted avg       0.89      0.89      0.88       416
+weighted avg       0.89      0.89      0.88       
+```
+## Visualizations
+![Example 1](https://github.com/anoukkim/neurofit-project-2/blob/main/DL/MultiTask/result/visualization_results/result_19.png)
+
+![Example 2](https://github.com/anoukkim/neurofit-project-2/blob/main/DL/MultiTask/result/visualization_results/result_3.png)
