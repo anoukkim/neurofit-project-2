@@ -43,7 +43,7 @@ This repository contains code and results for an experiment involving a UNet mod
 
 ### UNet (Segmentation)
 - **Architecture**: Custom UNet for segmentation.
-- **Pretrained**: Pretrained on Data
+- **Pretrained**: Pretrained on Data.
 - **Purpose**: Generate tumor masks from input images.
 
 ### MultiInputCNN (Classification)
@@ -66,8 +66,20 @@ This repository contains code and results for an experiment involving a UNet mod
 ## Evaluation Metrics
 
 - **Confusion Matrix**:
-  - Predicted Alive | Predicted Dead
-  - True Alive: 
-  - True Dead: 
+
+  |                  | Predicted Alive | Predicted Dead |
+  |------------------|-----------------|----------------|
+  | **True Alive**   | 292             | 10             |
+  | **True Dead**    | 36              | 78             |
 
 - **Classification Report**:
+
+```plaintext
+              precision    recall  f1-score   support
+
+       Alive       0.89      0.97      0.93       302
+        Dead       0.89      0.68      0.77       114
+
+    accuracy                           0.89       416
+   macro avg       0.89      0.83      0.85       416
+weighted avg       0.89      0.89      0.88       416
